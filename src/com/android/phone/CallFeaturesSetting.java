@@ -412,7 +412,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             /* tm.listen(mPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE); */
         }
 
-        if (!XtendedUtils.isPackageInstalled(this, "com.qualcomm.qti.ims")) {
+        if (!aosipUtils.isPackageInstalled(this, "com.qualcomm.qti.ims")) {
             prefSet.removePreference(findPreference("ims_settings_key"));
         }
 
