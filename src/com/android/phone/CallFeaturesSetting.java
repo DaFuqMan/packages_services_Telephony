@@ -53,7 +53,7 @@ import com.android.phone.settings.PhoneAccountSettingsFragment;
 import com.android.phone.settings.VoicemailSettingsActivity;
 import com.android.phone.settings.fdn.FdnSetting;
 
-import com.android.internal.util.xtended.XtendedUtils;
+import com.android.internal.util.aosip.aosipUtils;
 
 import java.util.List;
 
